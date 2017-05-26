@@ -5159,7 +5159,7 @@
     </widget>
     <ePixmap position="975,687" size="256,256" zPosition="2" pixmap="Blue-Line-OCT-4NFR/icons/menu_system_VFD_INI.png" transparent="1" />
     <eLabel name="vertikalline" position="929,120" size="2,840" foregroundColor="backgroundBlue" backgroundColor="backgroundBlue" />
-    <widget name="ErrorPixmap" pixmap="Blue-Line-OCT-4NFR/skin_default/icons/input_error.png" position="70,200" size="80,80" alphatest="blend" />
+    <widget name="ErrorPixmap" pixmap="Blue-Line-OCT-4NFR/skin_default/icons/input_error.png" position="70,200" size="80,79" alphatest="blend" />
     <widget name="QuestionPixmap" pixmap="Blue-Line-OCT-4NFR/skin_default/icons/input_question.png" position="72,200" size="80,80" alphatest="blend" />
     <widget name="InfoPixmap" pixmap="Blue-Line-OCT-4NFR/skin_default/icons/input_info.png" position="70,200" size="80,80" alphatest="blend" />
     <widget name="text" position="70,280" size="640,270" font="Regular;30" foregroundColor="lightblue" backgroundColor="dark" transparent="1" zPosition="1" />
