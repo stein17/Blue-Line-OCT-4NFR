@@ -220,7 +220,7 @@
   </screen>
   <!-- Restart Panel FHD -->
   <screen name="QuitMainloopScreen" position="0,0" backgroundColor="black" flags="wfNoBorder" size="1920,1080">
-    <ePixmap pixmap="Blue-Line-OCT-4NFR/icons/start1.png" zPosition="1" position="418,399" size="207,236" alphatest="blend" />
+    <ePixmap pixmap="Blue-Line-OCT-4NFR/icons/start.png" zPosition="1" position="418,399" size="207,236" alphatest="blend" />
     <ePixmap pixmap="Blue-Line-OCT-4NFR/skin_default/icons/input_info.png" position="416,225" size="80,80" zPosition="4" alphatest="blend" />
      <widget name="text" position="656,335" size="800,400" font="Regular; 44" halign="center" backgroundColor="black" foregroundColor="white" transparent="1" />
     <eLabel position="397,201" size="2,550" backgroundColor="backgroundBlue" foregroundColor="backgroundBlue" />
