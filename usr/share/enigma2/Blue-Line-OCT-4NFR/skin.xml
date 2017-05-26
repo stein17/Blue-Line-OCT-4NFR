@@ -6375,9 +6375,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
     <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
   </widget>
   <eLabel text="Für die Wetteranzeige in der 2.nd Infobar  sind einige Schritte nötig." position="430,426" size="730,90" zPosition="1" font="Regular; 35" halign="left" foregroundColor="blue" backgroundColor="background" transparent="1" />
-  <ePixmap position="39,576" size="1200,365" zPosition="10" pixmap="AX_Blue_FHD_4NFR/DEV/NFR_info_skin.png" transparent="1" alphatest="blend" />
-  <ePixmap position="158,408" size="220,132" zPosition="10" pixmap="AX_Blue_FHD_4NFR/picon_default.png" transparent="1" alphatest="blend" />
-  <ePixmap position="53,129" size="1182,210" zPosition="10" pixmap="AX_Blue_FHD_4NFR/DEV/NFR_Logo.png" transparent="1" alphatest="blend" />
+  <ePixmap position="39,576" size="1200,365" zPosition="10" pixmap="Blue-Line-OCT-4NFR/DEV/NFR_info_skin.png" transparent="1" alphatest="blend" />
+  <ePixmap position="158,408" size="220,132" zPosition="10" pixmap="Blue-Line-OCT-4NFR/picon_default.png" transparent="1" alphatest="blend" />
+  <ePixmap position="53,129" size="1182,210" zPosition="10" pixmap="Blue-Line-OCT-4NFR/DEV/NFR_Logo.png" transparent="1" alphatest="blend" />
 </screen>
  <!-- NFR MultiBootStartupOPT FHD  -->
   <screen name="MultiBootStartupOPT" position="0,0" size="1280,1080" backgroundColor="black" title="MultiBoot STARTUP Selector" flags="wfNoBorder" zPosition="9">
