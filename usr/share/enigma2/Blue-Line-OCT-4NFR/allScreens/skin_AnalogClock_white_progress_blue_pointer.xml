@@ -1,7 +1,7 @@
    <skin>
  <!--  skin_Infobar_with_AnalogClock-->
  <screen name="InfoBar" position="0,0" size="1920,1080" backgroundColor="transparent" flags="wfNoBorder" borderWidth="0" borderColor="transparent">
-  <ePixmap pixmap="Blue-Line-OCT-4NFR/menu/Infobar_OCT.png" position="0,780" zPosition="-1" size="1920,1080" />
+  <ePixmap pixmap="Blue-Line-OCT-4NFR/menu/Infobar.png" position="0,780" zPosition="-1" size="1920,1080" />
   <widget pixmap="Blue-Line-OCT-4NFR/icons/ico_rec_on.png" alphatest="blend" position="10,805" render="Pixmap" size="80,26" source="session.RecordState" zPosition="5">
     <convert type="ConditionalShowHide">Blink</convert>
   </widget>
