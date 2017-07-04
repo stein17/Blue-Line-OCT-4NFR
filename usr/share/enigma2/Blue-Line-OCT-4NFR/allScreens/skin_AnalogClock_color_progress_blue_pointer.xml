@@ -1,7 +1,7 @@
    <skin>
  <!--  skin_Infobar_with_AnalogClock-->
  <screen name="InfoBar" position="0,0" size="1920,1080" backgroundColor="transparent" flags="wfNoBorder" borderWidth="0" borderColor="transparent">
-  <ePixmap pixmap="Blue-Line-OCT-4NFR/menu/Infobar.png" position="0,780" zPosition="-1" size="1920,1080" />
+  <ePixmap pixmap="Blue-Line-OCT-4NFR/menu/Infobar_OCT.png" position="0,780" zPosition="-1" size="1920,1080" />
   <widget pixmap="Blue-Line-OCT-4NFR/icons/ico_rec_on.png" alphatest="blend" position="10,805" render="Pixmap" size="80,26" source="session.RecordState" zPosition="5">
     <convert type="ConditionalShowHide">Blink</convert>
   </widget>
@@ -23,7 +23,7 @@
     <convert type="EventTime">Remaining</convert>
     <convert type="RemainingToText">InMinutes</convert>
   </widget>
-  <widget source="session.Event_Now" render="Progress" pixmap="Blue-Line-OCT-4NFR/00ffffff.png" position="366,934" size="1202,12" zPosition="7" borderWidth="1" borderColor="black" transparent="1">
+  <widget source="session.Event_Now" render="Progress" pixmap="Blue-Line-OCT-4NFR/Color_Progress.png" position="366,934" size="1202,12" zPosition="7" borderWidth="1" borderColor="black" transparent="1">
     <convert type="EventTime">Progress</convert>
   </widget>
   <widget source="session.Event_Next" render="Label" position="557,957" size="850,45" font="Regular; 36" halign="left" backgroundColor="black" transparent="1" valign="top" foregroundColor="darkgrey">
@@ -40,10 +40,10 @@
   <widget source="global.CurrentTime" render="BLWatches" position="1660,863" size="160,160" zPosition="4" foregroundColor="red" alphatest="blend">
     <convert type="BLAnalogClock">secHand</convert>
   </widget>
-  <widget source="global.CurrentTime" render="BLWatches" position="1660,863" size="160,160" zPosition="3" foregroundColor="bluelabel" alphatest="blend">
+  <widget source="global.CurrentTime" render="BLWatches" position="1660,863" size="160,160" zPosition="3" foregroundColor="blue3" alphatest="blend">
     <convert type="BLAnalogClock">minHand</convert>
   </widget>
-  <widget source="global.CurrentTime" render="BLWatches" position="1675,878" size="130,130" zPosition="2" foregroundColor="bluelabel" alphatest="blend">
+  <widget source="global.CurrentTime" render="BLWatches" position="1675,878" size="130,130" zPosition="2" foregroundColor="blue3" alphatest="blend">
     <convert type="BLAnalogClock">hourHand</convert>
   </widget>
   <eLabel backgroundColor="background" font="Regular; 27" position="540,1040" size="80,27" text="AGC:" transparent="1" zPosition="3" foregroundColor="foregroundClock" halign="center" />

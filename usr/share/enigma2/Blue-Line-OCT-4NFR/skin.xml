@@ -118,7 +118,7 @@
   </parameters>
   <!-- Colors FHD -->
   <colors>
-    <color name="background" value="#30000000" />
+    <color name="background" value="#20000000" />
     <color name="background10" value="#10000000" />
     <color name="background20" value="#20000000" />
     <color name="background30" value="#30000000" />
@@ -177,7 +177,7 @@
     <color name="ListboxMarkedAndSelectedBackground" color="white" />
     <color name="ListboxMarkedAndSelectedForeground" color="black" />
     <color name="WindowTitleForeground" color="white" />
-    <color name="WindowTitleBackground" color="background" />
+    <color name="WindowTitleBackground" color="background20" />
     <!-- screen border png's -->
     <borderset name="bsWindow">
       <pixmap pos="bpTopLeft" filename="Blue-Line-OCT-4NFR/window/bs_tl.png" />
@@ -584,10 +584,10 @@
   <widget source="global.CurrentTime" render="BLWatches" position="1660,863" size="160,160" zPosition="4" foregroundColor="red" alphatest="blend">
     <convert type="BLAnalogClock">secHand</convert>
   </widget>
-  <widget source="global.CurrentTime" render="BLWatches" position="1660,863" size="160,160" zPosition="3" foregroundColor="bluelabel" alphatest="blend">
+  <widget source="global.CurrentTime" render="BLWatches" position="1660,863" size="160,160" zPosition="3" foregroundColor="blue3" alphatest="blend">
     <convert type="BLAnalogClock">minHand</convert>
   </widget>
-  <widget source="global.CurrentTime" render="BLWatches" position="1675,878" size="130,130" zPosition="2" foregroundColor="bluelabel" alphatest="blend">
+  <widget source="global.CurrentTime" render="BLWatches" position="1675,878" size="130,130" zPosition="2" foregroundColor="bluel3" alphatest="blend">
     <convert type="BLAnalogClock">hourHand</convert>
   </widget>
   <eLabel backgroundColor="background" font="Regular; 27" position="540,1040" size="80,27" text="AGC:" transparent="1" zPosition="3" foregroundColor="foregroundClock" halign="center" />
@@ -1179,10 +1179,10 @@
     <widget source="global.CurrentTime" render="BLWatches" position="1660,83" size="160,160" zPosition="4" foregroundColor="red" alphatest="blend">
       <convert type="BLAnalogClock">secHand</convert>
     </widget>
-    <widget source="global.CurrentTime" render="BLWatches" position="1660,83" size="160,160" zPosition="3" foregroundColor="bluelabel" alphatest="blend">
+    <widget source="global.CurrentTime" render="BLWatches" position="1660,83" size="160,160" zPosition="3" foregroundColor="blue3" alphatest="blend">
       <convert type="BLAnalogClock">minHand</convert>
     </widget>
-    <widget source="global.CurrentTime" render="BLWatches" position="1675,98" size="130,130" zPosition="2" foregroundColor="bluelabel" alphatest="blend">
+    <widget source="global.CurrentTime" render="BLWatches" position="1675,98" size="130,130" zPosition="2" foregroundColor="blue3" alphatest="blend">
       <convert type="BLAnalogClock">hourHand</convert>
     </widget>
   </screen>
@@ -3343,10 +3343,10 @@
     <widget source="global.CurrentTime" render="BLWatches" position="1660,863" size="160,160" zPosition="4" foregroundColor="red" alphatest="blend">
       <convert type="BLAnalogClock">secHand</convert>
     </widget>
-    <widget source="global.CurrentTime" render="BLWatches" position="1660,863" size="160,160" zPosition="3" foregroundColor="bluelabel" alphatest="blend">
+    <widget source="global.CurrentTime" render="BLWatches" position="1660,863" size="160,160" zPosition="3" foregroundColor="blue3" alphatest="blend">
       <convert type="BLAnalogClock">minHand</convert>
     </widget>
-    <widget source="global.CurrentTime" render="BLWatches" position="1675,878" size="130,130" zPosition="2" foregroundColor="bluelabel" alphatest="blend">
+    <widget source="global.CurrentTime" render="BLWatches" position="1675,878" size="130,130" zPosition="2" foregroundColor="blue3" alphatest="blend">
       <convert type="BLAnalogClock">hourHand</convert>
     </widget>
     <widget name="Cover" position="12,656" size="345,400" zPosition="1" alphatest="on" backgroundColor="transparent" foregroundColor="transparent" />
@@ -3436,10 +3436,10 @@
     <widget source="global.CurrentTime" render="BLWatches" position="1660,863" size="160,160" zPosition="4" foregroundColor="red" alphatest="blend">
       <convert type="BLAnalogClock">secHand</convert>
     </widget>
-    <widget source="global.CurrentTime" render="BLWatches" position="1660,863" size="160,160" zPosition="3" foregroundColor="bluelabel" alphatest="blend">
+    <widget source="global.CurrentTime" render="BLWatches" position="1660,863" size="160,160" zPosition="3" foregroundColor="blue3" alphatest="blend">
       <convert type="BLAnalogClock">minHand</convert>
     </widget>
-    <widget source="global.CurrentTime" render="BLWatches" position="1675,878" size="130,130" zPosition="2" foregroundColor="bluelabel" alphatest="blend">
+    <widget source="global.CurrentTime" render="BLWatches" position="1675,878" size="130,130" zPosition="2" foregroundColor="blue3" alphatest="blend">
       <convert type="BLAnalogClock">hourHand</convert>
     </widget>
     <widget name="Cover" position="13,651" size="345,400" zPosition="1" alphatest="on" backgroundColor="transparent" foregroundColor="transparent" />
@@ -3520,10 +3520,10 @@
     <widget source="global.CurrentTime" render="BLWatches" position="1660,863" size="160,160" zPosition="4" foregroundColor="red" alphatest="blend">
       <convert type="BLAnalogClock">secHand</convert>
     </widget>
-    <widget source="global.CurrentTime" render="BLWatches" position="1660,863" size="160,160" zPosition="3" foregroundColor="bluelabel" alphatest="blend">
+    <widget source="global.CurrentTime" render="BLWatches" position="1660,863" size="160,160" zPosition="3" foregroundColor="blue3" alphatest="blend">
       <convert type="BLAnalogClock">minHand</convert>
     </widget>
-    <widget source="global.CurrentTime" render="BLWatches" position="1675,878" size="130,130" zPosition="2" foregroundColor="bluelabel" alphatest="blend">
+    <widget source="global.CurrentTime" render="BLWatches" position="1675,878" size="130,130" zPosition="2" foregroundColor="blue3" alphatest="blend">
       <convert type="BLAnalogClock">hourHand</convert>
     </widget>
     <widget name="speed" position="1269,811" size="300,60" font="Regular;32" halign="right" valign="center" foregroundColor="bernstein" backgroundColor="dark" transparent="1" zPosition="2" />
