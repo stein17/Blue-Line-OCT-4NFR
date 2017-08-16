@@ -252,38 +252,62 @@
     <widget name="UnhandledKeyPixmap" position="1,1" size="100,100" zPosition="2" pixmap="Blue-Line-OCT-4NFR/icons/UnhandledKey.png" alphatest="blend" />
   </screen>
   <!-- NumberZap FHD -->
-  <screen name="NumberZap" position="216,245" size="1271,365" title="NumberZap" flags="wfNoBorder" backgroundColor="transparent">
-    <widget name="channel" position="200,86" size="281,167" font="Regular;70" valign="center" halign="right" foregroundColor="grey" backgroundColor="background30" transparent="1" borderColor="blue" borderWidth="3" />
-    <widget name="number" position="481,86" size="188,167" font="Regular;70" valign="center" halign="center" backgroundColor="background30" transparent="1" borderColor="blue" borderWidth="3" />
-    <widget name="servicename" position="391,270" size="610,60" font="Regular; 48" valign="center" halign="center" foregroundColor="grey" backgroundColor="background30" transparent="1" borderColor="blue" borderWidth="3" />
-    <eLabel halign="center" position="370,212" size="650,144" zPosition="-1" backgroundColor="background30" />
-    <eLabel backgroundColor="blue" position="670,210" size="352,3" />
-    <eLabel halign="center" position="200,86" size="469,167" borderColor="blue" borderWidth="3" zPosition="-1" />
-    
-    
-    <eLabel backgroundColor="blue" position="370,255" size="3,100" zPosition="3" />
-    
-    <eLabel backgroundColor="blue" position="370,353" size="650,3" />
-    
-    <eLabel backgroundColor="blue" position="1019,214" size="3,142" />
-  </screen>
+<screen name="NumberZap" position="216,245" size="1271,365" title="NumberZap" flags="wfNoBorder" backgroundColor="transparent">
+<widget name="channel" position="276,114" size="400,99" font="Regular;70" valign="center" halign="center" foregroundColor="grey" backgroundColor="background30" transparent="1" borderColor="blue" borderWidth="3" zPosition="1" />
+<widget name="number" position="679,80" size="181,163" font="Regular;70" valign="center" halign="center" foregroundColor="grey" backgroundColor="background30" transparent="1" borderColor="blue" borderWidth="3" zPosition="5" />
+<widget name="servicename" position="374,264" size="640,84" font="Regular; 48" valign="center" halign="center" foregroundColor="grey" backgroundColor="background30" transparent="1" borderColor="blue" borderWidth="3" zPosition="2" />
+<eLabel halign="center" position="370,212" size="650,144" zPosition="-5" backgroundColor="blue" />
+<eLabel halign="center" position="675,77" size="187,167" zPosition="-6" backgroundColor="blue" />
+<eLabel halign="center" position="271,109" size="411,108" zPosition="-4" backgroundColor="blue" />
+<eLabel halign="center" position="372,214" size="646,140" zPosition="-2" />
+<eLabel halign="center" position="679,81" size="180,163" zPosition="-3" />
+<eLabel halign="center" position="273,111" size="407,104" zPosition="-1" />
+<eLabel halign="center" position="676,77" size="2,169" zPosition="9" backgroundColor="blue" />
+<eLabel halign="center" position="271,215" size="406,2" zPosition="5" backgroundColor="blue" />
+<eLabel halign="center" position="861,212" size="159,2" zPosition="6" backgroundColor="blue" />
+<eLabel halign="center" position="860,138" size="2,108" zPosition="10" backgroundColor="blue" />
+<eLabel halign="center" position="676,244" size="186,2" zPosition="8" backgroundColor="blue" />
+</screen>
+
   <!-- NumberZapExt With Name FHD -->
-  <screen name="NumberZapWithName" position="396,324" size="1071,365" title="QuickZap" flags="wfNoBorder" backgroundColor="transparent">
-    <widget name="servicenumber" position="101,108" size="300,150" font="Regular;120" noWrap="0" halign="right" backgroundColor="background" transparent="0" valign="center" foregroundColor="darkgrey" zPosition="1" />
-    <widget name="servicename" position="431,67" size="594,150" font="Regular;75" halign="left" backgroundColor="background" transparent="0" zPosition="2" />
-    <widget name="servicebouquet" position="431,220" size="594,80" font="Regular;42" halign="left" backgroundColor="background" transparent="0" zPosition="3" />
-    <eLabel halign="center" position="407,48" size="641,272" zPosition="-1" />
-    <eLabel backgroundColor="cyan" position="1041,53" size="2,263" />
-    <eLabel backgroundColor="cyan" position="411,53" size="630,2" />
-    <eLabel halign="center" position="69,69" size="338,231" zPosition="-1" />
-    <eLabel backgroundColor="cyan" position="74,74" size="2,221" />
-    <eLabel backgroundColor="cyan" position="74,74" size="353,2" zPosition="2" />
-    <eLabel backgroundColor="cyan" position="426,74" size="2,221" zPosition="3" />
-    <eLabel backgroundColor="cyan" position="74,293" size="353,2" />
-    <eLabel backgroundColor="cyan" position="411,314" size="630,2" />
-    <eLabel backgroundColor="cyan" position="411,294" size="2,21" />
-    <eLabel backgroundColor="cyan" position="411,53" size="2,21" />
+<screen name="NumberZap" position="216,245" size="1271,365" title="NumberZap" flags="wfNoBorder" backgroundColor="transparent">
+<widget name="channel" position="276,114" size="400,99" font="Regular;70" valign="center" halign="center" foregroundColor="grey" backgroundColor="background30" transparent="1" borderColor="blue" borderWidth="3" zPosition="1" />
+<widget name="number" position="679,80" size="181,163" font="Regular;70" valign="center" halign="center" foregroundColor="grey" backgroundColor="background30" transparent="1" borderColor="blue" borderWidth="3" zPosition="5" />
+<widget name="servicename" position="374,217" size="640,134" font="Regular; 48" valign="bottom" halign="center" foregroundColor="grey" backgroundColor="background30" transparent="1" borderColor="blue" borderWidth="3" zPosition="2" />
+<eLabel halign="center" position="370,212" size="650,144" zPosition="-5" backgroundColor="blue" />
+<eLabel halign="center" position="675,77" size="187,167" zPosition="-6" backgroundColor="blue" />
+<eLabel halign="center" position="271,109" size="411,108" zPosition="-4" backgroundColor="blue" />
+<eLabel halign="center" position="372,214" size="646,140" zPosition="-2" />
+<eLabel halign="center" position="679,81" size="180,163" zPosition="-3" />
+<eLabel halign="center" position="273,111" size="407,104" zPosition="-1" />
+<eLabel halign="center" position="676,77" size="2,169" zPosition="9" backgroundColor="blue" />
+<eLabel halign="center" position="271,215" size="406,2" zPosition="5" backgroundColor="blue" />
+<eLabel halign="center" position="861,212" size="159,2" zPosition="6" backgroundColor="blue" />
+<eLabel halign="center" position="860,138" size="2,108" zPosition="10" backgroundColor="blue" />
+<eLabel halign="center" position="676,244" size="186,2" zPosition="8" backgroundColor="blue" />
+  <widget alphatest="blend" position="377,288" render="BLXPicon" size="107,60" source="Service" transparent="1" zPosition="10">
+  <convert type="ServiceName">Reference</convert>
+  </widget>
   </screen>
+        <!-- NumberZapExt With Picon FHD -->
+  <screen backgroundColor="transparent" flags="wfNoBorder" name="NumberZapPicon" position="396,324" size="1071,365" title="QuickZap">
+  <widget alphatest="blend" position="564,71" render="BLXPicon" size="324,182" source="Service" transparent="1" zPosition="1">
+  <convert type="ServiceName">Reference</convert>
+  </widget>
+  <widget name="number" position="101,108" size="300,150" halign="center" valign="center" font="Regular;120" backgroundColor="background" foregroundColor="white" borderColor="backgroundBlue" borderWidth="7"/>
+  <widget name="servicename" position="434,269" size="601,42" halign="center" valign="center" font="Regular;40" backgroundColor="background" foregroundColor="white" borderColor="backgroundBlue" borderWidth="3"/>
+  <eLabel halign="center" position="407,48" size="641,272" zPosition="-1" />
+  <eLabel halign="center" position="69,69" size="338,231" zPosition="-1" />
+  <eLabel backgroundColor="backgroundBlue" position="74,74" size="2,221" />
+  <eLabel backgroundColor="backgroundBlue" position="74,74" size="353,2" />
+  <eLabel backgroundColor="backgroundBlue" position="426,74" size="2,221" />
+  <eLabel backgroundColor="backgroundBlue" position="74,293" size="353,2" />
+  <eLabel backgroundColor="backgroundBlue" position="411,314" size="630,2" />
+  <eLabel backgroundColor="backgroundBlue" position="411,294" size="2,21" />
+  <eLabel backgroundColor="backgroundBlue" position="411,53" size="2,21" />
+  <eLabel backgroundColor="backgroundBlue" position="1041,53" size="2,263" />
+  <eLabel backgroundColor="backgroundBlue" position="411,53" size="630,2" />
+</screen>
   <!-- TextBox FHD -->
   <screen name="TextBox" position="center,center" size="900,400" title="Message...">
     <widget name="text" position="10,5" size="880,380" font="Regular;32" foregroundColor="white" transparent="1" />
@@ -1068,7 +1092,7 @@
   <convert type="ValueRange">1,1</convert>
   <convert type="ConditionalShowHide" />
   </widget>
-  <widget name="list" position="10,110" size="1220,880" scrollbarMode="showOnDemand" transparent="1" zPosition="1" 
+  <widget name="list" position="10,110" size="1220,830" scrollbarMode="showOnDemand" transparent="1" zPosition="1" 
   serviceItemHeight="60" 
   serviceNumberFont="Regular;38" 
   serviceNameFont="Regular;43" 
@@ -1119,7 +1143,19 @@
   <widget source="ServiceEvent" render="Label" position="1242,10" size="610,95" font="Regular; 40" halign="center" valign="center" transparent="1" zPosition="1">
   <convert type="ServiceName">Name</convert>
   </widget>
-</screen>
+<widget source="ServiceEvent" render="Label" position="65,953" size="335,32" zPosition="1" font="Regular; 27" halign="left" backgroundColor="white" transparent="0" foregroundColor="black">
+      <convert type="ServiceName2">Plugins</convert>
+    </widget>
+    <widget source="ServiceEvent" render="Label" position="480,953" size="335,32" zPosition="4" font="Regular; 27" halign="left" backgroundColor="white" transparent="0" foregroundColor="black">
+      <convert type="ServiceName2">Plugins1</convert>
+    </widget>
+    <widget source="ServiceEvent" render="Label" position="890,953" size="335,32" zPosition="4" font="Regular; 27" halign="left" backgroundColor="white" transparent="0" foregroundColor="black">
+      <convert type="ServiceName2">Plugins2</convert>
+    </widget>
+    <ePixmap pixmap="Blue-Line-OCT-4NFR/mmp/play.png" position="22,950" size="36,36" alphatest="blend" />
+    <ePixmap pixmap="Blue-Line-OCT-4NFR/mmp/rewind.png" position="438,950" size="36,36" alphatest="blend" />
+    <ePixmap pixmap="Blue-Line-OCT-4NFR/mmp/forward.png" position="846,950" size="36,36" alphatest="blend" />
+  </screen>
   <!-- Radio FHD -->
   <screen name="ChannelSelectionRadio" position="0,0" size="1920,1080" title="Radio Channel Selection" zPosition="-10" flags="wfNoBorder" backgroundColor="transparent">
     <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
