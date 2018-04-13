@@ -6490,9 +6490,11 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 <ePixmap pixmap="Blue-Line-OCT-4NFR/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
 <ePixmap pixmap="Blue-Line-OCT-4NFR/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
 <ePixmap pixmap="Blue-Line-OCT-4NFR/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="Blue-Line-OCT-4NFR/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
 <widget name="key_red" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
 <widget name="key_green" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
 <widget name="key_yellow" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget name="key_blue" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
 <widget name="lab1" position="30,320" size="1220,50" font="Regular; 36" zPosition="2" transparent="1" halign="center" foregroundColor="green" />
 <widget name="list" position="30,385" size="1220,510" scrollbarMode="showOnDemand" transparent="1" />
 <widget name="backupstatus" position="29,910" size="1220,70" font="Regular; 32" zPosition="5" transparent="1" />
